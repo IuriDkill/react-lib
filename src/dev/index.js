@@ -1,9 +1,9 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import ReactLib from '../lib';
+import { DkillComponent } from '../lib';
 
 
-const App = () => (<ReactLib/>);
+const App = () => (<DkillComponent nick="Dkill" team="SW" agent="Raze" rank="Ascendente"/>);
 
 const container = document.getElementById("root");
 const root = createRoot(container);
